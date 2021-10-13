@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 40px 50px;
+  font-family: "Poppins", sans-serif;
+  background-color: #e8f6ef;
+  max-width: 500px;
+  border: 1px solid #b8dfd8;
+  border-radius: 7px;
+}
+
+h1 {
+  font-size: 45px;
+  color: #4c4c6d;
+}
+h2 {
+  font-size: 25px;
+  color: #4c4c6d;
+}
+
+.button {
+  padding: 5px 4px;
+  color: #ffffff;
+  background-color: #ffe194;
+  border: 1px solid #f8d375;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #000000;
+  transition: ease-in-out;
+}
+
+.form {
+  padding: 5px 4px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: black;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

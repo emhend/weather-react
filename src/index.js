@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDom from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import "./styles.css";
+import Search from "./Search";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function App() {
+  return (
+    <div className="web">
+      <div className="App">
+        <h1>Weather App</h1>
+        <Search />
+      </div>
+      <footer className="footer">
+        <a href="https://github.com/emhend/weather-react">Open Source Code</a>{" "}
+        by <a href="https://lemieuxcodes.com/">Emily Henderson</a>
+      </footer>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDom.render(<App />, rootElement);
