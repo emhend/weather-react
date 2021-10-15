@@ -57,3 +57,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.icon {
+  filter: drop-shadow(2px 2px 5px #000000);
+}

@@ -48,7 +48,7 @@ export default function WeatherSearch() {
           <li>Humidity: {Math.round(weather.humidity)}%</li>
           <li>Wind: {Math.round(weather.wind)}MPH</li>
           <li>
-            <img src={weather.icon} alt="Weather Icon" />
+            <img src={weather.icon} alt="Weather Icon" className="icon" />
           </li>
         </ul>
       </div>
