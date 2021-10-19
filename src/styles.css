@@ -8,11 +8,13 @@
   max-width: 500px;
   border: 1px solid #b8dfd8;
   border-radius: 7px;
+  box-shadow: 2px 1px 5px #000000;
 }
 
 h1 {
   font-size: 45px;
   color: #4c4c6d;
+  filter: drop-shadow(2px 2px #ffffff);
 }
 h2 {
   font-size: 25px;
