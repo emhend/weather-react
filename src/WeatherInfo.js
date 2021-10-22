@@ -1,17 +1,18 @@
+import { tsPropertySignature } from "@babel/types";
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
       <h2>{Math.round(props.data.temperature)}°</h2>
-      <img
-        src={props.data.icon}
-        alt={props.data.description}
-        className="icon"
-      />
+      <hr />
+      <h1>
+        <WeatherIcon code={props.data.icon} />
+      </h1>
       <ul>
-        <li className="text-capitalize">{props.data.description}</li>
+        <li>{props.data.description}</li>
         <li>Humidity: {props.data.humidity}%</li>
         <li>Wind: {props.data.wind}mph</li>
       </ul>
