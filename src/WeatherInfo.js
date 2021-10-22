@@ -1,4 +1,3 @@
-import { tsPropertySignature } from "@babel/types";
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 
