@@ -5,7 +5,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div>
-      <Weather defaultCity="Austin" />
+      <Weather defaultCity="London" />
     </div>
   );
 }
