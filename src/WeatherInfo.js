@@ -8,7 +8,7 @@ export default function WeatherInfo(props) {
       <h2>{Math.round(props.data.temperature)}°</h2>
       <hr />
       <h1>
-        <WeatherIcon code={props.data.icon} />
+        <WeatherIcon code={props.data.icon} size={72} />
       </h1>
       <ul>
         <li>{props.data.description}</li>
